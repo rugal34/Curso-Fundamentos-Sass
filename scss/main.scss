@@ -1,0 +1,28 @@
+$primary-color: #ffd787;
+$secondarY-color: #db8e19;
+$tertiary-color: #2d3886;
+$primary-text-color: #4d2700;
+$font-title-stack: 'Skranji', cursive; 
+$font-p-stack: 'Ruwudu', serif;
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color: $primary-color;
+    width: 100%;
+    height: 300px;
+}
+
+main{
+    background-color: $primary-color;
+}
+
+.footer{
+    $background: #DC7E00;
+    background-color: $background;
+    width: 100%;
+    height: 250px;
+}
