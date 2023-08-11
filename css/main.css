@@ -1,3 +1,22 @@
 body {
-  background-color: red;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #ffd787;
+  width: 100%;
+  height: 100px;
+}
+
+main {
+  background-color: #ffd787;
+  width: 100%;
+  height: 100%;
+}
+
+footer {
+  background-color: #DC7E00;
+  width: 100%;
+  height: 250px;
 }/*# sourceMappingURL=main.css.map */
