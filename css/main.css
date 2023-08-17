@@ -1,17 +1,43 @@
 body {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
+  background-color: #ffd787;
+  font-family: "Ruwudu", serif;
 }
 
 nav {
   background-color: #ffd787;
-  width: 100%;
+  width: auto;
   height: 100px;
+  display: flex;
+  justify-content: space-between;
+  color: #4d2700;
+}
+nav img {
+  width: 80px;
+  height: 80px;
+  padding: 15px;
+}
+nav p {
+  font-size: 1.9rem;
+  padding-left: 30px;
+  display: flex;
+  gap: 15px;
+}
+nav .icons {
+  display: flex;
+  gap: 15px;
+}
+nav .icons button {
+  background: none;
+  border-style: none;
 }
 
-main {
-  background-color: #ffd787;
-  width: 100%;
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   height: 100%;
 }
 

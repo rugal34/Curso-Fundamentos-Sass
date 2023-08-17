@@ -6,21 +6,48 @@ $font-title-stack: 'Skranji', cursive;
 $font-p-stack: 'Ruwudu', serif;
 
 body {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
+    background-color: $primary-color;
+    font-family: $font-p-stack;
 }
 
 nav{
     background-color: $primary-color;
-    width: 100%;
+    width: auto;
     height: 100px;
-}
+    display: flex;
+    justify-content: space-between;
+    color: $primary-text-color;
+    // padding: 15px;
+    img{
+        width: 80px;
+        height: 80px;
+        padding: 15px;}
+    p{
+        font-size: 1.9rem;
+        padding-left: 30px;
+        display: flex;
+        gap: 15px;
+        
+    }
+    .icons{
+        display: flex;
+        gap: 15px;
+        button{
+            background: none;
+            border-style: none;
+            }
+        }
+    }
 
-main{
-    background-color: $primary-color;
-    width: 100%;
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     height: 100%;
-
 }
 
 footer{
