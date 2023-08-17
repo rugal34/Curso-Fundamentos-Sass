@@ -4,6 +4,13 @@ $tertiary-color: #2d3886;
 $primary-text-color: #4d2700;
 $font-title-stack: 'Skranji', cursive; 
 $font-p-stack: 'Ruwudu', serif;
+$paragraph-font-size: 1.5rem;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
 
 body {
     margin: 0px;
@@ -25,7 +32,7 @@ nav{
         height: 80px;
         padding: 15px;}
     p{
-        font-size: 1.9rem;
+        font-size: $paragraph-font-size;
         padding-left: 30px;
         display: flex;
         gap: 15px;
@@ -41,15 +48,57 @@ nav{
         }
     }
 
-
-nav ul{
-    list-style: none;
+article{
+    width: auto;
+    color: $primary-text-color;
+    background-color: white;
+    padding-left: 45px;
+    padding-right: 45px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    column-gap: 15px;
     align-items: center;
-    height: 100%;
+    .Valhalla-section{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+    h1{
+        font-size: 3rem;
+        font-family: $font-title-stack;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    p{
+        font-size: $paragraph-font-size;
+        padding-bottom: 30px;
+    }
+    button{
+        width: 20vw;
+        background-color: $secondarY-color;
+        border-style: none;
+        border-radius: 10px;
+        padding: 10px;
+        font-size: $paragraph-font-size;
+        color: white;
+        font-family: $font-title-stack;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &:hover{
+            background-color: $tertiary-color;
+        }
+    }
+    img{
+            width: 35vw;
+            border-radius: 19px;
+    }   
 }
-
 footer{
     $background: #DC7E00;
     background-color: $background;
