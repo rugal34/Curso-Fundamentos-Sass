@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #ffd787;
+  font-family: "Ruwudu", serif;
+}
+
+nav {
+  background-color: #ffd787;
+  width: auto;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #4d2700;
+}
+nav img {
+  width: 80px;
+  height: 80px;
+  padding: 15px;
+}
+nav p {
+  font-size: 1.5rem;
+  padding-left: 30px;
+}
+nav .icons {
+  display: flex;
+  gap: 15px;
+}
+nav .icons button {
+  background: none;
+  border-style: none;
+}
+
+article {
+  width: auto;
+  color: #4d2700;
+  background-color: white;
+  padding-left: 45px;
+  padding-right: 45px;
+  display: flex;
+  justify-content: space-between;
+  -moz-column-gap: 15px;
+       column-gap: 15px;
+  align-items: center;
+}
+article .Valhalla-section {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+article h1 {
+  font-size: 3rem;
+  font-family: "Skranji", cursive;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+article p {
+  font-size: 1.5rem;
+  padding-bottom: 30px;
+}
+article button {
+  width: 20vw;
+  background-color: #db8e19;
+  border-style: none;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 1.5rem;
+  color: white;
+  font-family: "Skranji", cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+article button:hover {
+  background-color: #2d3886;
+}
+article img {
+  width: 35vw;
+  border-radius: 19px;
+}
+
+footer {
+  background-color: #DC7E00;
+  width: 100%;
+  height: 250px;
+}/*# sourceMappingURL=main.css.map */

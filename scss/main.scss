@@ -25,6 +25,7 @@ nav{
     height: 100px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     color: $primary-text-color;
     // padding: 15px;
     img{
@@ -34,9 +35,6 @@ nav{
     p{
         font-size: $paragraph-font-size;
         padding-left: 30px;
-        display: flex;
-        gap: 15px;
-        
     }
     .icons{
         display: flex;
